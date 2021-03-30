@@ -1,9 +1,9 @@
-export class App {
+export abstract class App {
     
-    public bootstrap():string{
+    public static bootstrap():string{
         return "stuff"
     }
 }
 
-new App().bootstrap();
+App.bootstrap();
   
